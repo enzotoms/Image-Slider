@@ -342,11 +342,23 @@ header a:hover{
 
 
 /* media queries */
-@media screen and (max-width: 678px){
+@media screen and (max-width: 600px){
     .carousel .list .item .content{
         padding-right: 0;
     }
     .carousel .list .items .content .title{
         font-size: 30px;
     }
-}
+     .topic, .des, .buttons {
+         display: none; 
+    }
+   header a{
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    }
+    .title{
+        color: #f1683a;
+    }
+   }
+    
